@@ -1,0 +1,19 @@
+﻿@{ 
+    int number = 5;
+}
+<h1 style="color:red">Hello P512, this is Index html page</h1>
+
+<ul>
+    <li>
+        @number
+    </li>
+    <li>
+        @ViewBag.Name
+    </li>
+    <li>
+        @ViewData["Surname"]
+    </li>
+    <li>
+        @TempData["Age"]
+    </li>
+</ul>
